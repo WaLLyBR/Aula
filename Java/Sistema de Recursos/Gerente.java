@@ -5,7 +5,7 @@ public class Gerente extends Empregados{
     private double bonus = 500;
     private double salarioGerente;
 
-    public Gerente(String area, double bonus, double salarioGerente, String nome, String codigo, double salarioBase) {
+    public Gerente(String area, double bonus, String nome, String codigo, double salarioBase) {
         super(nome, codigo, salarioBase);
         this.area = area;
         this.bonus = bonus;
